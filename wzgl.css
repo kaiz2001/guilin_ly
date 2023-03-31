@@ -1,0 +1,168 @@
+.nav_top div ul li:first-child {
+    color: #84c75d;
+    border-bottom: none;
+}
+
+/* ? */
+.nav_top div ul li:first-child:hover {
+    color: #fe9400;
+    cursor: pointer;
+}
+
+.nav_top div ul li:nth-child(4) {
+    color: #fe9400;
+    border-bottom: 4px solid #fe9400;
+}
+
+.nav ul li {
+    float: left;
+    height: 50px;
+    padding: 0 20px;
+    margin-top: 80px;
+    line-height: 50px;
+    color: #2e2e2e;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.nav ul li:hover {
+    color: #84c75d;
+    cursor: pointer;
+}
+
+.nav ul li:first-child {
+    color: #84c75d;
+    border-bottom: 4px solid #84c75d;
+}
+
+.show h3 {
+    color: #84c75d;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.show>div {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.show div {
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.show .box1,
+.show .box4 {
+    height: 360px;
+    width: 204px;
+    margin-right: 10px;
+    background-image: url(https://www.guilin.com.cn/img/01.55cf3107.jpg);
+}
+
+.show .box2 {
+    width: 612px;
+    height: 175px;
+    margin-right: 10px;
+}
+
+.show .box2 div:nth-child(1),
+.show .box2 div:nth-child(4) {
+    width: 200px;
+    height: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #fe9400;
+    background-image: url(https://www.guilin.com.cn/img/02.1e240d92.jpg)
+}
+
+.show .box2 div:nth-child(2),
+.show .box2 div:nth-child(3) {
+    width: 401px;
+    height: 100%;
+    background-image: url(https://www.guilin.com.cn/img/03.821f7351.jpg)
+}
+
+.show .box2 div:nth-child(3) {
+    margin-right: 10px;
+    margin-bottom: 0;
+    background-image: url(https://www.guilin.com.cn/img/04.67a1fb5e.jpg)
+}
+
+.show .box2 div:nth-child(4) {
+    margin-right: 0;
+    margin-bottom: 0;
+    background-image: url(https://www.guilin.com.cn/img/05.ecf6096c.jpg)
+}
+
+.show .box3 {
+    position: relative;
+    width: 204px;
+    height: 360px;
+    background-image: url(https://www.guilin.com.cn/img/06.6245ea9e.jpg);
+}
+
+.lis>div {
+    position: relative;
+    height: 251px;
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.lis .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 550px;
+    height: 200px;
+}
+
+.lis .left .title {
+    height: 26px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(./img/sign.png);
+}
+
+.lis .left .title h3 {
+    display: inline-block;
+    height: 26px;
+    margin-left: 25px;
+    font-size: 19px;
+    color: #2e2e2e;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.lis .left .title h3:hover {
+    color: #84c75d;
+}
+
+.lis .left .content {
+    position: relative;
+    height: 100%;
+    margin-top: 15px;
+    color: #3f3f3f;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.lis .left .content #msg {
+    position: absolute;
+    bottom: 10px;
+}
+
+.lis .right {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 240px;
+    width: 430px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://guilin.com.cn:12850/2022%5C08%5CO_debffa21-73ea-ab8d-0b13-3a058da69cab.jpg);
+}
